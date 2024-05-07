@@ -7,12 +7,12 @@ from src.AbstractJSONSaver import AbstractJsonSaver
 class JsonSaver(AbstractJsonSaver):
 
     def save_file(self, data: list):
-        """Save file"""
+        """Сохраняем данные в файле"""
         with open(DATA, 'w', encoding='utf-8') as file:
             file.write(json.dumps(data, indent=2, ensure_ascii=False))
 
     def read_file(self):
-        """Read file"""
+        """Читаем данные из файла и возвращаем их в виде списка"""
         with open(DATA, encoding='utf-8') as file:
             return json.load(file)
 
