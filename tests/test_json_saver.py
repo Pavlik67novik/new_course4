@@ -1,6 +1,6 @@
 from abc import ABC
 
-from src.AbstractJsonSaver import AbstractJsonSaver
+from src.AbstractJSONSaver import AbstractJsonSaver
 from src.JsonSaver import JsonSaver
 
 
