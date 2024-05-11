@@ -3,7 +3,7 @@ import json
 import pytest
 
 from config import DATA_TEST
-from src.GetApiHh import GetApiHh
+from src.GetAPIHH import GetApiHh
 from src.JsonSaver import JsonSaver
 
 

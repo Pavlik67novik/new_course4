@@ -1,7 +1,7 @@
 from abc import ABC
 
-from src.AbstractGetApiHh import AbstractGetApiHh
-from src.GetApiHh import GetApiHh
+from src.AbstractApiHH import AbstractGetApiHh
+from src.GetAPIHH import GetApiHh
 
 
 def test_issubclass():
